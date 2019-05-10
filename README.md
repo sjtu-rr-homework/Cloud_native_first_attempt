@@ -1,1 +1,1 @@
-### This project is for homework SE418 in SJTU
+### This project is homework for SE418 in SJTU
