@@ -13,7 +13,7 @@ The other microservice is used to draw the graph.
 
 There is no denying that we are a little bit familiar with Eureka and native Docker with spring boot.<br>
 
-However, we'd like to try kong and kubeless a little bit just for the best practice.<br>
+However, we'd like to try kong and kubeless or kubernetes a little bit just for the best practice.<br>
 
 Coming soon......<br>
 
