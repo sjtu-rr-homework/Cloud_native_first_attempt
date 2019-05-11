@@ -3,7 +3,8 @@
 [Google style guide](https://google.github.io/styleguide/)<br>
 
 #### Our idea:
-One microservice is used to stimulate the Cellular automaton.  
+One microservice is used to stimulate the Cellular automaton.<br>
+
 The other microservice is used to draw the graph.
 
 #### About Cellular automaton
