@@ -16,5 +16,11 @@ There is no denying that we are a little bit familiar with Eureka and native Doc
 
 We decided to use Eureka to discover service and ZUUL as the api gateway. This tool chain brings us the Ribbon as  a client side load balancer and Hystrix as an implementation of [Circuit Breaker pattern](http://martinfowler.com/bliki/CircuitBreaker.html)
 
+#### Reference
+
+[Microservice Architecture with Spring Boot, Spring Cloud and Docker](https://github.com/sqshq/piggymetrics)
+
+[spring-boot-microservices-on-kubernetes](https://github.com/IBM/spring-boot-microservices-on-kubernetes)
+
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
