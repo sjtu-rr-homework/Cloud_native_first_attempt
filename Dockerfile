@@ -1,3 +1,6 @@
+
+
+
 #this is the base image we use to create our image from
 FROM jenkins/jenkins:lts
 #just info about who created this
