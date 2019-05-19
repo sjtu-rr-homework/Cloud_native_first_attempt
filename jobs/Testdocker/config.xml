@@ -14,7 +14,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>docker run helloworld</command>
+      <command>docker run hello-world</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
