@@ -67,11 +67,34 @@ And this [Guide](<https://dzone.com/articles/dockerizing-jenkins-2-setup-and-usi
 
 
 
+### STEP TWO
 
+send our service to outer net 
 
+#### tools 
 
+oray5<br>
 
+#### Detailed Step
 
+##### Download
 
+download oray5 for ubuntu/linux in [downloadOrya5](<https://hsk.oray.com/download/>)
 
+##### Install 
+in the download directory
+```shell
+sudo dpkg -i phddns_3.0_x86_64.deb
+```
+##### Use 
+visit [downloadOrya5](<https://b.oray.com/passport/login?url=https%3A%2F%2Fb.oray.com%2F>)<br>
 
+register and login in the oray<br>
+
+select the Inner 'net penetration' tag, add a mapping<br>
+
+finish configure such as your ip address and your port.oray will distribute a domain name for this server and we can visit our service by this domain name through internet like this
+
+[![Capture3.png](https://i.postimg.cc/wMhsg1Nk/Capture3.png)](https://postimg.cc/Hr4g0JLv)
+
+We are following this [Guide](<http://service.oray.com/question/4287.html>)<br>
