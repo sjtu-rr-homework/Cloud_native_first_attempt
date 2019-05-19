@@ -1,8 +1,8 @@
 #-Script1
 #!/bin/bash
-echo "*******-Starting CI CD Pipeline Tasks-*******"
 export M2_HOME=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven3/apache-maven-3.5.0 # your Mavan home path
 export PATH=$PATH:$M2_HOME/bin
+echo "*******-Starting CI CD Pipeline Tasks-*******"
 #-BUILD
 echo ""
 echo ".....Build Phase Started ::Compiling Source Code:: ......"
@@ -11,21 +11,24 @@ mvn clean install
 #-Script2
 #!/bin/bash
 #-POSTBUILD (PROVISIONING DEPLOYMENT)
+export M2_HOME=/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven3/apache-maven-3.5.0 # your Mavan home path
+export PATH=$PATH:$M2_HOME/bin
 echo ""
 echo "..... Intergration Phase Started :: Copying Artifacts::....."
 echo ""
 echo "......Provision Phase Started :: Building Docker Container::....."
+mvn install
 cp Dockerfile target/
 cd target
-sudo docker build -t devops_pipeline_demo .
+docker build -t devops_pipeline_demo .
 
 #-Script3
-sudo docker rm -f devops_pipeline_demo
 
-    # run your container
-    echo ""
-    echo ".....Deployment Phase Started :: Building Docker Container:: ......"
-    sudo docker run -d -p 8180:8080 --name devops_pipeline_demo devops_pipeline_demo
+
+# run your container
+echo ""
+echo ".....Deployment Phase Started :: Building Docker Container:: ......"
+docker run -d -p 8180:8080 --name devops_pipeline_demo devops_pipeline_demo
     
 #-Completion
 echo "............................................."
