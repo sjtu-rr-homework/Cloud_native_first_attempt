@@ -22,11 +22,6 @@ We decided to use Eureka to discover service and ZUUL as the api gateway. This t
 
 [spring-boot-microservices-on-kubernetes](https://github.com/IBM/spring-boot-microservices-on-kubernetes)
 
-<a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
-[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-
-
-
 #### May 20,2019,CI
 
 [Docker hub link](<https://hub.docker.com/r/macoredroid/jenkins>)
