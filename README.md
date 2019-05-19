@@ -38,7 +38,7 @@ When it comes to the downloads folder, you have to download<br>
 
 [jdk-7u76-linux-x64.tar](http://mirror.cnop.net/jdk/linux/jdk-7u76-linux-x64.tar.gz)<br>
 
-[jdk-8u131-linux-x64.tar](https://archive.apache.org/dist/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz)<br>
+[jdk-8u131-linux-x64.tar](http://mirror.cnop.net/jdk/linux/jdk-8u131-linux-x64.tar.gz)<br>
 Other files is on the git repo<br>
 
 So fork this repo in the folder first<br>
