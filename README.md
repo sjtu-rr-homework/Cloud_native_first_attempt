@@ -95,6 +95,6 @@ select the Inner 'net penetration' tag, add a mapping<br>
 
 finish configure such as your ip address and your port.oray will distribute a domain name for this server and we can visit our service by this domain name through internet like this
 
-[![Capture3.png](https://i.postimg.cc/wMhsg1Nk/Capture3.png)](https://postimg.cc/Hr4g0JLv)
+ ![image](https://postimg.cc/Hr4g0JLv)
 
 We are following this [Guide](<http://service.oray.com/question/4287.html>)<br>
