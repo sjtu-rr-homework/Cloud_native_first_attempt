@@ -22,5 +22,56 @@ We decided to use Eureka to discover service and ZUUL as the api gateway. This t
 
 [spring-boot-microservices-on-kubernetes](https://github.com/IBM/spring-boot-microservices-on-kubernetes)
 
-<a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
-[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+#### May 20,2019,CI
+
+[Docker hub link](<https://hub.docker.com/r/macoredroid/jenkins>)
+
+Create a new folder.<br>
+
+Put your files in this kind of structure <br>
+
+[![Capture2.png](https://i.postimg.cc/Y25y2Z5n/Capture2.png)](https://postimg.cc/mhSS8X2C)<br>
+
+When it comes to the downloads folder, you have to download<br>
+
+[apache-maven-3.5.0-bin.tar.gz](https://archive.apache.org/dist/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz)<br>
+
+[jdk-7u76-linux-x64.tar](http://mirror.cnop.net/jdk/linux/jdk-7u76-linux-x64.tar.gz)<br>
+
+[jdk-8u131-linux-x64.tar](https://archive.apache.org/dist/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz)<br>
+Other files is on the git repo<br>
+
+So fork this repo in the folder first<br>
+
+Then create a downloads folder and put three files which were mentioned above into the downloads floder.<br>
+
+In this folder, open terminal and run<br>
+
+```shell
+sudo docker run -p 8080:8080  -v `pwd`/downloads:/var/jenkins_home/downloads -v `pwd`/jobs:/var/jenkins_home/jobs/ -v /var/run/docker.sock:/var/run/docker.sock --rm --name myjenkins macoredroid/jenkins:forth
+```
+
+Visit http://localhost:8080/ you will see all jobs right there<br>
+
+[![Capture3.png](https://i.postimg.cc/wMhsg1Nk/Capture3.png)](https://postimg.cc/RJZ0TVX3)
+
+Amazing!<br>
+
+Then run the tools first to automatically install maven and jdk to the docker image.<br>
+
+Then you can start the pipeline to run Job1,Job2,Job3 one after another thanks to the stream.<br>
+
+We are following this [Guide](<https://dzone.com/articles/dockerizing-jenkins-2-setup-and-using-it-along-wit>)<br>
+
+And this [Guide](<https://dzone.com/articles/dockerizing-jenkins-2-setup-and-using-it-along-wit>)
+
+
+
+
+
+
+
+
+
+
+
