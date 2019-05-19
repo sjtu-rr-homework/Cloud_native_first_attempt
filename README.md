@@ -37,6 +37,15 @@ Put your files in this kind of structure <br>
 
 [![Capture2.png](https://i.postimg.cc/Y25y2Z5n/Capture2.png)](https://postimg.cc/mhSS8X2C)<br>
 
+When it comes to the downloads folder, you have to download<br>
+
+[apache-maven-3.5.0-bin.tar.gz](https://archive.apache.org/dist/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz)<br>
+
+[jdk-7u76-linux-x64.tar](http://mirror.cnop.net/jdk/linux/jdk-7u76-linux-x64.tar.gz)<br>
+
+[jdk-8u131-linux-x64.tar](https://archive.apache.org/dist/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz)<br>
+Other files is on the git repo<br>
+
 In this folder, open terminal and run<br>
 
 ```shell
