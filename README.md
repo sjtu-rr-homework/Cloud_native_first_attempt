@@ -31,27 +31,23 @@ We decided to use Eureka to discover service and ZUUL as the api gateway. This t
 
 [Docker hub link](<https://hub.docker.com/r/macoredroid/jenkins>)
 
+Create a new folder.<br>
+
 Put your files in this kind of structure <br>
 
 [![Capture2.png](https://i.postimg.cc/Y25y2Z5n/Capture2.png)](https://postimg.cc/mhSS8X2C)<br>
+
+In this folder, open terminal and run<br>
 
 ```shell
 sudo docker run -p 8080:8080  -v `pwd`/downloads:/var/jenkins_home/downloads -v `pwd`/jobs:/var/jenkins_home/jobs/ -v /var/run/docker.sock:/var/run/docker.sock --rm --name myjenkins macoredroid/jenkins:forth
 ```
 
-
-
-
-
-
-
-
-
 We are following this [Guide](<https://dzone.com/articles/dockerizing-jenkins-2-setup-and-using-it-along-wit>)<br>
 
 And this [Guide](<https://dzone.com/articles/dockerizing-jenkins-2-setup-and-using-it-along-wit>)
 
-Coming soon ...
+
 
 
 
