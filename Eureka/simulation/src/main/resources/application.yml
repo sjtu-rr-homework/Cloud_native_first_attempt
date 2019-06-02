@@ -1,10 +1,10 @@
 
 server:
-  port: 8762
+  port: 8764
 
 spring:
   application:
-    name: Simulation
+    name: simulation
 eureka:
   client:
     serviceUrl:
