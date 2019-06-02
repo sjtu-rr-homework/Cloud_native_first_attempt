@@ -1,5 +1,5 @@
 # EurekaTest
-这是一个使用Zuul作为gateway,使用了Eureka和Feign的简易项目.
+这是一个使用Eureka,zuul,feign,hystrix,ribbon的简易项目.
 
 zuul的端口为8766
 
@@ -13,4 +13,6 @@ localhost:8766/save/**
 
 http://localhost:8766/simulation/test
 
-localhost:8766/save/test
+http://localhost:8766/save/test
+
+http://localhost:8766/hystrix
