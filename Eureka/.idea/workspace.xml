@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="650e5290-a882-4faa-995e-1a804f803e4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/src/main/java/com/example/save/SaveApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/save/src/main/java/com/example/save/SaveApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stimulator/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stimulator/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stimulator/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stimulator/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stimulator/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stimulator/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stimulator/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stimulator/src/main/java/com/example/stimulator/StimulatorApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stimulator/src/main/java/com/example/stimulator/controller/SimulationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stimulator/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stimulator/src/test/java/com/example/stimulator/StimulatorApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,10 +53,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simulation/src/main/java/com/example/simulation/controller/SimulationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="342">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/father.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -125,7 +124,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -154,7 +153,6 @@
         <option value="$PROJECT_DIR$/function/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/wordcounter/pom.xml" />
         <option value="$PROJECT_DIR$/function/src/main/java/father/function/Configuration/MyURLPatternConfiguration.java" />
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/function/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/target/Dockerfile" />
         <option value="$PROJECT_DIR$/function/src/main/resources/application.yml" />
@@ -181,6 +179,7 @@
         <option value="$PROJECT_DIR$/simulation/pom.xml" />
         <option value="$PROJECT_DIR$/simulation/src/main/java/com/example/simulation/controller/SimulationController.java" />
         <option value="$PROJECT_DIR$/simulation/src/main/java/com/example/simulation/SimulationApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
       </list>
     </option>
   </component>
@@ -190,100 +189,51 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eureka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eureka" type="462c0819:PsiDirectoryNode" />
               <item name="save" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="save" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="save" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="save" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="save" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="save" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eureka" type="462c0819:PsiDirectoryNode" />
               <item name="simulation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="simulation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="simulation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="simulation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EurekaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EurekaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="simulation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="simulation" type="462c0819:PsiDirectoryNode" />
+              <item name="Eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,6 +244,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559300118973" />
@@ -478,6 +429,7 @@
       <workItem from="1559115459228" duration="79000" />
       <workItem from="1559292009260" duration="7032000" />
       <workItem from="1559299598464" duration="284000" />
+      <workItem from="1559455738030" duration="306000" />
     </task>
     <servers />
   </component>
@@ -487,13 +439,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51104000" />
+    <option name="totallyTimeSpent" value="51410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30093834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -511,12 +463,13 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32956153" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Dependency Viewer" order="15" weight="0.32956153" />
+      <window_info anchor="right" id="Codota" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -551,47 +504,14 @@
     <entry file="file://$PROJECT_DIR$/wordcounter/src/main/java/father/wordcounter/WordcounterApplication.java" />
     <entry file="file://$PROJECT_DIR$/function/src/main/java/father/function/Configuration/MyURLPatternConfiguration.java" />
     <entry file="file://$PROJECT_DIR$/function/target/classes/application.properties" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/log4j2.springboot">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4332" />
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/log4j2.springboot" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/favicon.ico" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/META-INF/spring-configuration-metadata.json" />
     <entry file="file://$PROJECT_DIR$/function/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/eureka-server/target/Dockerfile" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.39/tomcat-embed-core-8.5.39.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="232" selection-start-line="232" selection-end-line="232" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/3d/eclipse/eclipse/jre/lib/src.zip!/java.base/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3686">
-          <caret line="218" selection-start-line="218" selection-end-line="218" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/3d/eclipse/eclipse/jre/lib/src.zip!/java.base/java/io/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.39/tomcat-embed-core-8.5.39.jar!/javax/servlet/http/HttpServlet.class" />
+    <entry file="jar://E:/3d/eclipse/eclipse/jre/lib/src.zip!/java.base/java/io/FileInputStream.java" />
+    <entry file="jar://E:/3d/eclipse/eclipse/jre/lib/src.zip!/java.base/java/io/FileReader.java" />
     <entry file="file://$PROJECT_DIR$/wordcounterfunc/src/main/java/father/function/FunctionApplication.java" />
     <entry file="file://$PROJECT_DIR$/wordcounterfunc/src/main/java/father/function/Controller/LoginController.java" />
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
@@ -601,12 +521,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/META-INF/maven/org.springframework.boot/spring-boot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/META-INF/maven/org.springframework.boot/spring-boot/pom.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/META-INF/maven/org.springframework.boot/spring-boot/pom.xml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/META-INF/maven/org.springframework.boot/spring-boot/pom.properties" />
     <entry file="file://$PROJECT_DIR$/login/pom.xml" />
     <entry file="file://$PROJECT_DIR$/save/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/save/mvnw.cmd">
@@ -647,11 +563,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login/src/main/resources/application.yml" />
-    <entry file="file://$USER_HOME$/Desktop/exe4.lsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-407" />
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/exe4.lsp" />
     <entry file="file://$PROJECT_DIR$/login/src/main/java/father/login/LoginApplication.java" />
     <entry file="file://$PROJECT_DIR$/save/src/main/java/com/example/save/Remote/SimulationRemote.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -723,17 +635,24 @@
     <entry file="file://$PROJECT_DIR$/father.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simulation/src/main/java/com/example/simulation/controller/SimulationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
         </state>
       </provider>
     </entry>
