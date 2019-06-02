@@ -6,19 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="function" />
-        <module name="zuul" />
         <module name="eureka-server" />
-        <module name="login" />
-        <module name="simulation" />
         <module name="EurekaTest" />
         <module name="father" />
+        <module name="function" />
+        <module name="login" />
         <module name="save" />
+        <module name="simulation" />
+        <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hystrix" target="1.8" />
       <module name="service-login" target="1.8" />
-      <module name="stimulator" target="1.8" />
       <module name="wordcounter" target="1.7" />
     </bytecodeTargetLevel>
   </component>
@@ -28,6 +28,7 @@
       <module name="eureka-server" options="-parameters" />
       <module name="father" options="-parameters" />
       <module name="function" options="-parameters" />
+      <module name="hystrix" options="-parameters" />
       <module name="login" options="-parameters" />
       <module name="save" options="-parameters" />
       <module name="service-login" options="-parameters" />
