@@ -18,6 +18,6 @@ public class SaveApplication {
     }
     @GetMapping("/test")
     public String test(){
-        return "this is draw!";
+        return "this is save!";
     }
 }
