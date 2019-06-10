@@ -1,7 +1,9 @@
 # EurekaTest
 这是一个使用Eureka,zuul,feign,hystrix,ribbon的简易项目.
 
-http://localhost:8761/ Eureka 服务注册中心
+http://localhost:8761/       
+
+Eureka 服务注册中心
 
 zuul的端口为8766
 
