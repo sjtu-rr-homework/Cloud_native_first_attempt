@@ -17,7 +17,14 @@ public class SimulationController {
     @PostMapping("simulate")
     public Map<String, Object> simulate(@RequestBody Map<String, Object> req){
         Map<String, Object> res = new HashMap<>();
-        Integer steps = Integer.parseInt((String) req.get("steps"));
+        Object tmp = req.get("steps");
+        int steps;
+        if(tmp instanceof Integer){
+            steps=(int)tmp;
+        }
+        else {
+            steps = Integer.parseInt((String) req.get("steps"));
+        }
         List<List<Integer>> initialBoard = (List<List<Integer>>) req.get("initialBoard");
         List<List<List<Integer>>> simulation = simulator.getSimulation(initialBoard, steps);
         res.put("simulation", simulation);

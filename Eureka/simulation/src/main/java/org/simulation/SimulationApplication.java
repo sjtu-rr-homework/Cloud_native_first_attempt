@@ -15,7 +15,7 @@ public class SimulationApplication {
     public static void main(String[] args) {
         SpringApplication.run(SimulationApplication.class, args);
     }
-    @GetMapping("/test")
+    @GetMapping("/ForSave")
     public String test(){
         return "this is simulation";
     }

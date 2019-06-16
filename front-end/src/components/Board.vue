@@ -105,7 +105,7 @@ export default {
       this.simulationFail = false
       this.simulationReady = false
       this.$http.post(
-        'simulate', {
+        '/simulation/simulate', {
           steps: this.stepAmount,
           initialBoard: this.getInitialBoard()
         }
@@ -118,6 +118,12 @@ export default {
           this.simulationReady = false
           this.simulationFail = true
         }
+      )
+      this.$http.post('/save/SaveResult', {
+        result: this.simulation
+      }
+      ).then(
+
       )
       /* this.getInitialBoard()
       this.simulation = [[[0, 1], [1, 0]], [[0, 0], [0, 1]], [[1, 0], [1, 0]]]

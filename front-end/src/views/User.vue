@@ -71,7 +71,7 @@ export default {
       this.loadingSave = true
       this.saveSelected = true
       this.$http.post(
-        'save', {
+        '/save/get', {
           id: this.selectedSave
         }
       ).then(
