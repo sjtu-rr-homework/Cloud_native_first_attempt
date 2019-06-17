@@ -21,11 +21,3 @@ zuul:
     save-service:
       path: /save/**
       serviceId: save
-    oauth:
-      path: /oauth/**
-      serviceId: oauth
-security:
-  oauth2:
-    resource:
-      jwt:
-        key-value: 123
