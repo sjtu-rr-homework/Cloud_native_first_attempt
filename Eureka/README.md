@@ -7,15 +7,15 @@ Eureka 服务注册中心
 
 zuul的端口为8766
 
-现支持在8766的zuul端口调用负载均衡，转发需求到其余的微服务
+目前有两个simulation服务,通过zuul来进行负载均衡调度.
 
-分别为调用simulation和save两个微服务的url
+在依次运行server zuul 以及其他微服务后
 
-目前支持以下简易功能
+输入http://localhost:8766/ 进入主页面
 
-http://localhost:8766/simulation/test
+模拟流程教程见主页面
 
-http://localhost:8766/save/test
+存档id从0开始计数,如第一次模拟存档id为0(采用自动存档模式,获取结果后即刻存档)
 
 hystrix数据监测服务：
 
