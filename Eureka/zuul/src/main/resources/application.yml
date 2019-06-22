@@ -11,9 +11,17 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 zuul:
+  hystrix:
+    command:
+      default:
+        execution:
+          isolation:
+            thread:
+              timeoutInMilliseconds: 1100
   ribbon:
-    Readtimeout: 0
-    Sockettimeout: 0
+    ConnectTimeout: 100
+    ReadTimeout: 100
+
   routes:
     simulation-service:
       path: /simulation/**
@@ -24,3 +32,11 @@ zuul:
     statistics-service:
         path: /statistics/**
         serviceId: statistics
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 11000
+
