@@ -16,7 +16,7 @@ public class SaveApplication {
     public static void main(String[] args) {
         SpringApplication.run(SaveApplication.class, args);
     }
-    @GetMapping("/test")
+    @GetMapping("/SaveResult")
     public String test(){
         return "this is save!";
     }
