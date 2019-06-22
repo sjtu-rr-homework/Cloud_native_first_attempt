@@ -9,7 +9,9 @@ zuul的端口为8766
 
 目前有两个simulation服务,通过zuul来进行负载均衡调度.
 
-http://localhost:8766/ 进入主页面
+在依次运行server zuul 以及其他微服务后
+
+输入http://localhost:8766/ 进入主页面
 
 模拟流程教程见主页面
 
