@@ -38,10 +38,12 @@ export default {
   created: function () {
     this.loading = true
     this.$http.post(
-      'user'
+      '/statistics/user'
     ).then(
       (resp) => {
-        this.saves = resp.data.saves
+        this.boardAmount = resp.data.boardAmount
+        this.maxStepAmount = resp.data.maxStepAmount
+        this.boardSuccessAmount = resp.data.boardSuccessAmount
         this.loadFail = false
         this.loading = false
       }, () => {

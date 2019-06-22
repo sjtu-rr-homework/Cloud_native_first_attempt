@@ -21,3 +21,6 @@ zuul:
     save-service:
       path: /save/**
       serviceId: save
+    statistics-service:
+        path: /statistics/**
+        serviceId: statistics
