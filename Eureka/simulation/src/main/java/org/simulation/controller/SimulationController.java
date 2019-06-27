@@ -28,7 +28,6 @@ public class SimulationController {
         List<List<Integer>> initialBoard = (List<List<Integer>>) req.get("initialBoard");
         List<List<List<Integer>>> simulation = simulator.getSimulation(initialBoard, steps);
         res.put("simulation", simulation);
-        System.out.println("Once");
         return res;
     }
 }
