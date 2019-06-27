@@ -20,3 +20,5 @@ http://localhost:8766/save/test
 hystrix数据监测服务：
 
 http://localhost:8766/hystrix
+路径中填入
+http://localhost:8764/turbine.stream
