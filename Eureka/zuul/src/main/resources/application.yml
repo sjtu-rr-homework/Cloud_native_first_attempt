@@ -23,3 +23,10 @@ zuul:
     save-service:
       path: /save/**
       serviceId: save
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
