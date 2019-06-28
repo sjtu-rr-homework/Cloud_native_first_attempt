@@ -9,19 +9,13 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://172.17.0.2:8761/eureka/
+  instance:
+    prefer-ip-address: true
 zuul:
-  hystrix:
-    command:
-      default:
-        execution:
-          isolation:
-            thread:
-              timeoutInMilliseconds: 1100
   ribbon:
-    ConnectTimeout: 100
-    ReadTimeout: 100
-
+    Readtimeout: 0
+    Sockettimeout: 0
   routes:
     simulation-service:
       path: /simulation/**
@@ -29,14 +23,3 @@ zuul:
     save-service:
       path: /save/**
       serviceId: save
-    statistics-service:
-        path: /statistics/**
-        serviceId: statistics
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 11000
-
